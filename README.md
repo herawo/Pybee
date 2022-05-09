@@ -52,7 +52,7 @@ print(ma_liste[0])
 ```
 (print permet d'afficher une variable)
 
-#### Les tuples (tuple)
+#### Les n-uplets (tuple)
 
 Comme une liste mais marquée par des () au lieu des []. La différence est qu'un tuple est immutable. Après instanciation, on ne peut pas modifier le contenu
 ```python
