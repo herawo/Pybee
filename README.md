@@ -1,7 +1,7 @@
 # Pybee
 projet to learn python
 
-- ![Les variables](basics.md)
+- [Les variables](basics.md)
 
 
 
