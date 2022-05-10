@@ -76,6 +76,18 @@ couleur = 'orange'
 animal = 'chat'
 mon_predicat = animal == 'chat' and couleur == 'orange'
 if mon_predicat:
-    print('Je vais l'appeler Garfield')
+    print('Je vais l appeler Garfield')
 ```
+
+Et que se passe t'il si on utilise une variables qui n'est pas un booléen sans faire de vérification dessus ? exemple `if couleur: ...`
+couleur n'est pas un booléen il vaut ni True ni False, mais "orange". Et bien tout simplement, le compileur python va [caster la variable]() vers un booléen. Voici quelque exemples de comment les valeurs vont etre interprétées en booleen :
+- `bool(None) -> False`
+- `bool('') -> False`
+- `bool('salut') -> True`
+- `bool(0) -> False`
+- `bool(1) -> True`
+- `bool(122) -> True`
+- `bool(True) -> True`
+- `bool([]) -> False`
+- `bool([0]) -> True`
 
