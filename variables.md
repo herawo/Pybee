@@ -89,3 +89,5 @@ ma_variable vaudra 1 alors que ma_variable_str vaudra "1"
 
 à tester le passage de chaque type a un autre, des petites complexités existent comme le fait de devoir passer avant par le float pour passer de la string vers l'int `int(float("14"))`
 
+A suivre : [Les conditions](conditions.md)
+
