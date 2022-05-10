@@ -1,6 +1,6 @@
 # Les conditions
 
-## Interoger une valeur
+## Interroger une valeur
 On peut interoger la valeur d'une variable
 
 ```python
@@ -12,9 +12,10 @@ elif ma_variables >= 2:
 else:
     print('ici non plus')
 ```
-cela introduit la notion de "bloc" de code marqué par les tabulations.
+Bien sûr ici et dans les exemple suivant, les verifications seront faite sur des variables qui sont déclarées juste au dessus. L'utilité d'une vérification est de pouvoir gérer des variables dont on ne connait pas le contenu (car il est ... variable)
+Cela introduit la notion de "bloc" de code marqué par les tabulations.
 
-# Bloc de code
+## Bloc de code
 par exemple:
 ```python
 ma_variable = 'toto'
@@ -69,4 +70,12 @@ on retrouve ici `A and B or C and not D` avec
 - C : `age > 20`
 - D : `taille < 1`
 
+On avait dit dans la [partie précédente](variables.md#et-beaucoup-dautres-choses-possibles) qu'une variable peut contenir plein de choses. Elles peuvent notament contenir un prédicat. Exemple :
+```python
+couleur = 'orange'
+animal = 'chat'
+mon_predicat = animal == 'chat' and couleur == 'orange'
+if mon_predicat:
+    print('Je vais l'appeler Garfield')
+```
 
