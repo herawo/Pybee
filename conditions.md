@@ -1,4 +1,6 @@
 # Les conditions
+
+## Interoger une valeur
 On peut interoger la valeur d'une variable
 
 ```python
@@ -12,14 +14,15 @@ else:
 ```
 cela introduit la notion de "bloc" de code marqué par les tabulations.
 
+# Bloc de code
 par exemple:
 ```python
 ma_variable = 'toto'
 if ma_variable == 'toto':
-print('ca passe ici')
+print('ca ne précompile meme pas')
 ```
 
-ne marchera pas, car après un if, le code attend un bloc de code propre au if qui s'executera si la vérification est valide. un bloc se défini par un nombre de tabulation. Pour continuer sortir du bloc, et continuer l'execution normale, on retire des tabulations 
+ne marchera pas, car après un if, le code attend un bloc de code propre au if qui s'executera si la vérification est valide. Un bloc se défini par un nombre de tabulation. Pour sortir du bloc, et continuer l'execution normale, on retire des tabulations 
 
 ```python
 ma_variable = 'toto'
@@ -28,6 +31,8 @@ if ma_variable == 'toto':
 print('ca passe ici aussi')
 ```
 
+
+## Prédicat booléen
 Depuis le début on parle de vérification. En fait c'est un prédicat booléen. Une prédicat c'est un assertion qui va renvoyer vrai ou faux.
 exemple:  
 ```python
@@ -40,4 +45,28 @@ cela introduit les opérateurs booléen -> and, or et not
 not -> inverse
 or -> ou inclusif
 and -> et
-(voir les tables de calcul booléens)
+
+| A | not A | B | A or B | A and B |
+|---|-------|---|--------|---------|
+| F | V     | F | F      | F       |
+| V | F     | F | V      | F       |
+| F |       | V | V      | F       |
+| V |       | V | V      | V       |
+
+Un prédicat peut être composé de plusieurs sous prédicat, exemple : `A and B or C and not D`  
+en code cela peut se traduire en :
+```python
+nom = 'Billy'
+prenom = 'Bob'
+age = 25
+taille = 1.5f
+if nom.contains('B') and prenom.startswith('B') or age > 20 and not taille < 1:
+    print('ça passe ici')
+```
+on retrouve ici `A and B or C and not D` avec 
+- A : `nom.contains('B')` (ici, contains() renvoie True si 'B' est trouvé dans `nom`)
+- B : `prenom.startswith('B')` (ici, startswith() renvoie True si 'B' est la premiere lettre dans `prenom`)
+- C : `age > 20`
+- D : `taille < 1`
+
+
