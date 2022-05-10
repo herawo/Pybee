@@ -91,3 +91,5 @@ couleur n'est pas un booléen il vaut ni True ni False, mais "orange". Et bien t
 - `bool([]) -> False`
 - `bool([0]) -> True`
 
+A suivre : [Les boucles](boucles.md)
+
