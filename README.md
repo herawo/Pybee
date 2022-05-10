@@ -2,6 +2,7 @@
 Projet pour apprendre le python simplement, étape par étape.
 
 - [Les variables](variables.md)
+- [Les conditions](conditions.md)
 
 
 
