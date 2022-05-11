@@ -7,7 +7,7 @@ Aide :
 pour générer simplement un nombre random on utilise le module random
 ```python
 import random
-r1 = random.randint(-20, 20)
+r1 = random.randint(10, 100)
 ```
 
 
