@@ -31,6 +31,14 @@ for elem in ma_liste:
         print("impair")
 ```
 
+On peut aussi simplement créer une boucle qui va boucler N fois ainsi:
+```python
+for index in range(N):
+    ...
+
+```
+index vaudra 0 puis 1, puis 2 ... jusqu'à N non inclu (donc on aura N élément comme on a commencé à compter à 0)
+
 ## While
 
 
