@@ -6,6 +6,7 @@ Pour tester voici un [compileur en ligne](https://www.programiz.com/python-progr
 - [Les variables](variables.md)
 - [Les conditions](conditions.md)
 - [Les boucles](boucles.md)
+- [Exercices](exercices.md)
 
 
 
