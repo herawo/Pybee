@@ -32,3 +32,6 @@ for elem in ma_liste:
 ```
 
 ## While
+
+
+A suivre : [Les Exercices](exercices.md)
