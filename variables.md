@@ -33,21 +33,31 @@ exemple: 'c'; "mot"; "je suis beau", '', "38"
 
 #### Les listes (list)
 
-un ensemble de variables  
+Un ensemble de variables ordonnées. Assez important car tres utiles.
 exemple:  
 ```python
 un_caractere = 'c'
 ma_list = [1, 2, "3", un_caractere, ['lol', True]]
 ```
 
-on peut accéder aux valeurs grâce a l'index (la position dans la liste). le premier est à l'index 0, le second à l'index 1, etc.  
+On peut accéder aux valeurs grâce a l'index (la position dans la liste). le premier est à l'index 0, le second à l'index 1, etc.  
 exemple:  
 ```python
 un_caractere = 'c'
 ma_liste = [1, 2, "3", un_caractere]
 print(ma_liste[0])
 ```
-(print permet d'afficher une variable)
+(`print(...)` permet d'afficher une variable)
+On peut déclarer une liste vide puis ajouter et retirer des élement a postériori
+```python
+ma_liste = []
+ma_liste.append('premier élément')
+ma_liste.append('deuxieme élément')
+ma_liste.append('dernier élément')
+
+ma_liste.remove('deuxieme élément')
+
+```
 
 #### Les n-uplets (tuple)
 
