@@ -41,5 +41,14 @@ index vaudra 0 puis 1, puis 2 ... jusqu'à N non inclu (donc on aura N élément
 
 ## While
 
+Le principe est le même avec un while mais on n'itère pas de manière connue. C'est une condition qui va donner l'ordre de quitter. Exemple :
+```python
+compteur = 0
+while compteur <= 100:
+    if compteur % 5:
+        print(compteur)
+```
+- à lire "tant que compteur est inférieur ou égal ..."
+- on peut également utiliser le `continue` et le `break`
 
 A suivre : [Les Exercices](exercices.md)
