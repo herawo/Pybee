@@ -45,10 +45,12 @@ Le principe est le même avec un while mais on n'itère pas de manière connue. 
 ```python
 compteur = 0
 while compteur <= 100:
-    if compteur % 5:
+    if compteur % 5 == 0:
         print(compteur)
+    compteur += 1
 ```
 - à lire "tant que compteur est inférieur ou égal ..."
 - on peut également utiliser le `continue` et le `break`
+- `compteur += 1` est un raccourci pour `compteur = compteur + 1`
 
 A suivre : [Les Exercices](exercices.md)
