@@ -30,6 +30,5 @@ for elem in ma_liste:
     else:
         print("impair")
 ```
-- elif est un if mais qui sert quand on veut tester plusieurs possibilités différentes. Il vient obligatoirement après un if.
 
 ## While
