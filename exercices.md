@@ -3,11 +3,12 @@
 ## Boucles for
 
 Ecrire un algorithme qui va créer une liste avec 5 nombre random entre -10 et 10, puis pour chaque nombre multiplié tour à tour par chaque nombre de la liste (donc 5\*5 = 25 valeurs) afficher le résultat de la multiplicaion si il est positif
-Aide :
-pour générer simplement un nombre random on utilise le module random
+
+Aide :  
+pour générer simplement un nombre random on utilise la fonction randint du module random qui va générer un nombre entier aléatoire entre X et Y
 ```python
 import random
-r1 = random.randint(10, 100)
+r1 = random.randint(X, Y)
 ```
 
 
