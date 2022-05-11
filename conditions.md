@@ -12,6 +12,11 @@ elif ma_variables >= 2:
 else:
     print('ici non plus')
 ```
+- if suivi d'une condition : `variable == valeur` va verifier si variable est égal a valeur. On peut aussi utiliser > (supérieur), < (inférieur), >= (suéprieur ou égal), <= (inférieur ou égal) 
+- elif est un if mais qui sert quand on veut tester plusieurs possibilités différentes. Il vient obligatoirement après un if.
+- else va récupérer si on ne passe ni dans le if ni dans le elif.
+- if / elif / else peut être compris ainsi : si / ou si / sinon
+
 Bien sûr ici et dans les exemple suivant, les verifications seront faite sur des variables qui sont déclarées juste au dessus. L'utilité d'une vérification est de pouvoir gérer des variables dont on ne connait pas le contenu (car il est ... variable)
 Cela introduit la notion de "bloc" de code marqué par les tabulations.
 
