@@ -2,6 +2,8 @@
 
 ## For
 
+## While
+
 ```python
 fn0 = 0
 fn1 = 1
