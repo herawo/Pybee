@@ -2,6 +2,30 @@
 
 ## For
 
+
+```python
+import random
+
+randoms = []
+for i in range(10):
+    randoms.append(random.randint(-10, 10))
+print(randoms)
+    
+for rand1 in randoms:
+    for rand2 in randoms:
+        if rand1 * rand2 > 0:
+            print('positif', rand1 * rand2)
+        else:
+            print('negatif', rand1 * rand2)
+```
+
+Si on veut flex, on peut générer la liste ainsi:
+```python
+import random
+randoms = [random.randint(-10, 10) for i in range(10)]
+print(randoms)
+```
+
 ## While
 
 ```python
