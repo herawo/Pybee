@@ -25,6 +25,7 @@ import random
 randoms = [random.randint(-10, 10) for i in range(10)]
 print(randoms)
 ```
+-> C'est la compréhension de liste, un mécanisme pratique en python permettant d'écrire des itérables (liste, tuples, dictionnaire) sur une ligne
 
 ## While
 
