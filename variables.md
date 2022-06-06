@@ -71,7 +71,7 @@ la derniere ligne produira une erreur
 #### Les ensembles (set)
 Une liste que ne peut pas contenir de doublon
 ```python
-mon_set = set(1, 2, 3)
+mon_set = set((1, 2, 3))
 ```
 
 #### Les dictionnaires
